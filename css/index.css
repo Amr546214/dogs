@@ -1,0 +1,72 @@
+body{
+    overflow-x: hidden;
+}
+.container-fluid a ,.nav-item a{
+    color: aliceblue;
+    cursor: pointer;
+}
+.dropdown-menu a{
+    color: black;
+}
+.row .icon{
+    max-width: 5%;
+    border: none;
+}
+.row .icon{
+    max-width: 100%;
+}
+.col-3{
+        width: 5%;
+}
+.section a{
+    color: black;
+}
+.section a:focus ,.section a:hover {
+    background-color: #101828;
+    color: white;
+}
+.search a{
+    color: black;
+}
+.btn:hover{
+    background-color: #101828;
+    border-color: #101828;
+}
+.card img:hover{
+    cursor: pointer;
+    transition: all .8s;
+    transform: scale(1.05);
+    
+}
+.text-end:hover{
+    cursor: pointer;
+    color: #b20cff;
+}
+.Services img:hover{
+    cursor: pointer;
+    opacity: .4;
+    border:4px solid #101828;
+    transition: all .6s;
+    -webkit-transition: all .8s;
+    -moz-transition: all .6s;
+    -ms-transition: all .6s;
+    -o-transition: all .6s;
+    transform: scale(1.07);
+    -webkit-transform: scale(1.04);
+    -moz-transform: scale(1.07);
+    -ms-transform: scale(1.07);
+    -o-transform: scale(1.07);
+}
+.line{
+    width: 100%;
+    border-top: 1px solid #101828;
+    padding: 10px;
+    
+}
+.img_pos{
+    bottom: -80px;
+        left: 90px;
+}
+.w-lg-100{
+    line-height: 35px;
+}
